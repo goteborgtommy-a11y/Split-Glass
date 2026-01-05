@@ -1,4 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "my-app/dist"
+  "framework": "vite",
+  "installCommand": "npm install",
+  "buildCommand": "npm --prefix my-app run build && rm -rf public && cp -r my-app/dist public",
+  "outputDirectory": "public"
 }
