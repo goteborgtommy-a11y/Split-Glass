@@ -1,0 +1,20 @@
+{
+  "name": "namnlos-mapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix my-app run dev",
+    "build": "npm --prefix my-app run build",
+    "preview": "npm --prefix my-app run preview",
+    "lint": "npm --prefix my-app run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}

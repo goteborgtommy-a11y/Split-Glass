@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/output.css">
+  <title>Tailwind start</title>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100">
+  <main class="mx-auto flex max-w-3xl flex-col gap-8 px-6 py-12">
+    <header class="flex items-center justify-between">
+      <h1 class="text-3xl font-semibold tracking-tight">Tailwind is installed</h1>
+      <span class="rounded-full bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-300 ring-1 ring-emerald-500/30">ready</span>
+    </header>
+    <section class="rounded-2xl border border-slate-800 bg-slate-900/70 p-6 shadow-xl shadow-emerald-500/10">
+      <p class="text-lg leading-relaxed text-slate-200">Run <code class="rounded bg-slate-800 px-2 py-1 text-sm">npm run dev</code> to build the CSS while you work.</p>
+      <p class="mt-4 text-sm text-slate-400">Sample section with some Tailwind classes to verify everything works.</p>
+      <div class="mt-6 grid gap-4 sm:grid-cols-2">
+        <div class="rounded-xl bg-gradient-to-br from-emerald-500/20 via-emerald-500/10 to-transparent p-4 ring-1 ring-emerald-500/30">
+          <p class="text-sm font-semibold text-emerald-200">Utility-first</p>
+          <p class="mt-2 text-sm text-slate-200">Build quickly without leaving the HTML.</p>
+        </div>
+        <div class="rounded-xl bg-gradient-to-br from-sky-500/20 via-sky-500/10 to-transparent p-4 ring-1 ring-sky-500/30">
+          <p class="text-sm font-semibold text-sky-200">Easy to tweak</p>
+          <p class="mt-2 text-sm text-slate-200">Update config and themes as needed.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
